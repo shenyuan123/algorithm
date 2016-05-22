@@ -19,7 +19,7 @@ int main()
         }
     }
     sort(daffodil.begin(), daffodil.end());
-    for(int i=0; i<daffodil.size(); i++)
+    for(size_t i=0; i<daffodil.size(); i++)
     {
         cout<<daffodil[i]<<endl;
     }
